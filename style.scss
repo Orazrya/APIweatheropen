@@ -1,0 +1,51 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-image: url(./assets/a.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  width: 300px;
+  border-radius: 15px;
+  border: 1px solid black;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.output-container {
+  margin: 25px;
+}
+input[type="text"] {
+  background-color: wheat;
+  border: 0px solid;
+  border-radius: 15px;
+  width: 200px;
+  height: 30px;
+  text-align: center;
+  outline: 0px;
+}
+.btn {
+  height: 35px;
+  width: 150px;
+  color: white;
+  background-color: red;
+  border-radius: 15px;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+}
